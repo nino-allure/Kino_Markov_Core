@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\Common\" />
     <Folder Include="Images\" />
     <Folder Include="Pages\Users\Elements\" />
     <Folder Include="Pages\Clubs\Elements\" />
