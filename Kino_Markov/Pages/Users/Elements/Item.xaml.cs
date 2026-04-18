@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Kino_Markov.Classes;
+using Kino_Markov.Models;
 
 namespace Kino_Markov.Pages.Users.Elements
 {
@@ -62,4 +63,4 @@ namespace Kino_Markov.Pages.Users.Elements
             Main.Parent.Children.Remove(this);
         }
     }
-   }
+}

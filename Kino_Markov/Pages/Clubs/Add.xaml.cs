@@ -26,7 +26,7 @@ namespace Kino_Markov.Pages.Clubs
         public Add(Main Main, Models.Clubs Club = null)
         {
             InitializeComponent();
-            this Main = Main;
+            this.Main = Main;
             if (Club != null)
             {
                 this.Club = Club;
@@ -41,7 +41,7 @@ namespace Kino_Markov.Pages.Clubs
                 Club.Address = this.Address.Text;
                 Club.WorkTime = this.WorkTime.Text;
             }
-            this Main.AllClub.SaveChanges();
+            this.Main.AllClub.SaveChanges();
             MainWindow.init.OpenPages(new Pages.Clubs.Main());
         }
     }

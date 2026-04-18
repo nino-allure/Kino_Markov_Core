@@ -16,9 +16,9 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Width="80" Height="80" VerticalAlignment="Top" Margin="0,20,0,0" Source="/Images/club.png"/>
+                <Image Width="80" Height="80" VerticalAlignment="Top" Margin="0,20,0,0" Source="/Images/user.png"/>
                 <Button Click="BtnAdd" Height="25" Content="Изменить" VerticalAlignment="Top" Margin="10,110,10,0"
-            Background="#FF46FD00" BorderBrush="#FF46FD00" Foreground="White"/>
+            Background="#FF46FD00" BorderBrush="#FF46FD00" Foreground="White" x:Name="BtnAdd"/>
                 <Label Content="Дата аренды: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,20,0,0" Grid.Column="1"/>
                 <DatePicker x:Name="RentStart" Text="" VerticalAlignment="Top" Margin="10,50,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>
                 <Label Content="Время Аренды: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,80,0,0" Grid.Column="1"/>
@@ -27,7 +27,7 @@
             <Label Content="Продолжительность: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="460,32,0,0" Grid.Column="2"/>
             <TextBox x:Name="Duration" Text="" VerticalAlignment="Top" Margin="460,62,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="2"/>
             <Label Content="Клуб: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="460,92,0,0"/>
-            <TextBox x:Name="Club" Text="" VerticalAlignment="Top" Margin="460,122,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="2"/>
+            <ComboBox x:Name="Clubs" Text="" VerticalAlignment="Top" Margin="460,122,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="2"/>
             <Label Content="Фамилия Имя и Отчество: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="140,161,0,0"/>
             <TextBox x:Name="FIO" Text="" VerticalAlignment="Center" Margin="140,0,10,0" Height="26" VerticalContentAlignment="Center" IsEnabled="False"/>
         </Grid>
