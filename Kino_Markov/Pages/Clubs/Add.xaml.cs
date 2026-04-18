@@ -36,14 +36,6 @@ namespace Kino_Markov.Pages.Clubs
                 this.WorkTime.Text = Club.WorkTime;
                 BtnAdd.Content = "Изменить";
             }
-            else
-            {
-                Club.Name = this.Name.Text;
-                Club.Address = this.Address.Text;
-                Club.WorkTime = this.WorkTime.Text;
-            }
-            this.Main.AllClub.SaveChanges();
-            MainWindow.init.OpenPages(new Pages.Clubs.Main());
         }
 
         private void AddClick(object sender, RoutedEventArgs e)

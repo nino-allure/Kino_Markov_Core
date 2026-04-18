@@ -21,16 +21,16 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Label Content="Дата аренды: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0"/>
-            <DatePicker x:Name="RentStart" Text="Выбор даты" VerticalAlignment="Top" Margin="10,36,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False"/>
+            <DatePicker x:Name="RentStart" Text="Выбор даты" VerticalAlignment="Top" Margin="10,36,10,0" Height="25" VerticalContentAlignment="Center"/>
             <Label Content="Время аренды: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0"/>
-            <TextBox x:Name="RentTime" Text="Время аренды" VerticalAlignment="Top" Margin="10,92,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False"/>
+            <TextBox x:Name="RentTime" Text="Время аренды" VerticalAlignment="Top" Margin="10,92,10,0" Height="25" VerticalContentAlignment="Center" />
 
             <Label Content="Продолжительность: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Column="1" />
-            <DatePicker x:Name="Duration" Text="Выбор даты" VerticalAlignment="Top" Margin="10,36,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1" />
+            <DatePicker x:Name="Duration" Text="Выбор даты" VerticalAlignment="Top" Margin="10,36,10,0" Height="25" VerticalContentAlignment="Center" Grid.Column="1" />
             <Label Content="Клуб: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0" Grid.Column="1" />
-            <ComboBox x:Name="Club" Text="Test" VerticalAlignment="Top" Margin="10,92,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1" />
+            <ComboBox x:Name="Club" Text="Test" VerticalAlignment="Top" Margin="10,92,10,0" Height="25" VerticalContentAlignment="Center" Grid.Column="1" />
         </Grid>
         <Label Content="Фамилия Имя и Отчество:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,132,0,0" Grid.Column="1"/>
-        <TextBox x:Name="FIO" Text="" VerticalAlignment="Top" Margin="10,163,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>
+        <TextBox x:Name="FIO" Text="" VerticalAlignment="Top" Margin="10,163,10,0" Height="25" VerticalContentAlignment="Center" Grid.Column="1"/>
     </Grid>
 </UserControl>
