@@ -27,10 +27,10 @@ namespace Kino_Markov
         {
             frame.Navigate(Page);
         }
-        private void Clubs(object sender, RoutedEventArgs e) {
+        private void ClubsClick(object sender, RoutedEventArgs e) {
             OpenPages(new Pages.Clubs.Main());
         }
-        private void Users(object sender, RoutedEventArgs e)
+        private void UsersClick(object sender, RoutedEventArgs e)
         {
             OpenPages(new Pages.Users.Main());
         }

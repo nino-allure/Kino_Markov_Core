@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Kino_Markov.Models;
 
 namespace Kino_Markov.Pages.Clubs
 {
@@ -37,6 +38,26 @@ namespace Kino_Markov.Pages.Clubs
             }
             else
             {
+                Club.Name = this.Name.Text;
+                Club.Address = this.Address.Text;
+                Club.WorkTime = this.WorkTime.Text;
+            }
+            this.Main.AllClub.SaveChanges();
+            MainWindow.init.OpenPages(new Pages.Clubs.Main());
+        }
+
+        private void AddClick(object sender, RoutedEventArgs e)
+        { 
+            if (this.Club == null)
+                {
+                Club = new Models.Clubs();
+                Club.Name = this.Name.Text;
+                Club.Address = this.Address.Text;
+                Club.WorkTime = this.WorkTime.Text;
+                // Добавляем объект в контекст
+                this.Main.AllClub.Clubs.Add(this.Club);
+            }
+            else {
                 Club.Name = this.Name.Text;
                 Club.Address = this.Address.Text;
                 Club.WorkTime = this.WorkTime.Text;

@@ -8,8 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button
-            x:Name="BtnClubs"
-            Click="ShowClubs"
+            Click="ClubsClick"
             Height="25"
             Content="Клубы"
             VerticalAlignment="Top"
@@ -20,8 +19,7 @@
             BorderBrush="#FF46FD00"
             Foreground="White"/>
         <Button
-            x:Name="BtnUsers"
-            Click="ShowUsers"
+            Click="UsersClick"
             Height="25"
             Content="Пользователи"
             VerticalAlignment="Top"

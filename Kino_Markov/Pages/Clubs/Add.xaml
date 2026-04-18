@@ -17,7 +17,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Image Width="80" Height="80" VerticalAlignment="Top" Margin="0,20,0,0" Source="/Images/club.png"/>
-                <Button Click="BtnAdd" Height="25" Content="Добавить" VerticalAlignment="Top" Margin="10,110,10,0"
+                <Button Click="AddClick" Height="25" Content="Добавить" VerticalAlignment="Top" Margin="10,110,10,0"
                 Background="#FF46FD00" BorderBrush="#FF46FD00" Foreground="White" x:Name="BtnAdd"/>
                 <Label Content="Наименование: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,20,0,0" Grid.Column="1"/>
                 <TextBox x:Name="Name" Text="" VerticalAlignment="Top" Margin="10,50,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>

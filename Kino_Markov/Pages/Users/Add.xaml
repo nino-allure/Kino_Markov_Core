@@ -17,8 +17,8 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Image Width="80" Height="80" VerticalAlignment="Top" Margin="0,20,0,0" Source="/Images/user.png"/>
-                <Button Click="BtnAdd" Height="25" Content="Изменить" VerticalAlignment="Top" Margin="10,110,10,0"
-            Background="#FF46FD00" BorderBrush="#FF46FD00" Foreground="White" x:Name="BtnAdd"/>
+                <Button Click="AddUser" Height="25" Content="Изменить" x:Name="BtnAdd" VerticalAlignment="Top" Margin="10,110,10,0"
+            Background="#FF46FD00" BorderBrush="#FF46FD00" Foreground="White"/>
                 <Label Content="Дата аренды: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,20,0,0" Grid.Column="1"/>
                 <DatePicker x:Name="RentStart" Text="" VerticalAlignment="Top" Margin="10,50,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>
                 <Label Content="Время Аренды: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,80,0,0" Grid.Column="1"/>
