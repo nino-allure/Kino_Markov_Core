@@ -10,14 +10,6 @@
 
     <Grid>
         <Grid Margin="20" Background="#FFF0F0F0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Button x:Name="GoToClubs" Click="GoToClubs" Height="25" Content="Клубы" VerticalAlignment="Center" Margin="10,0,0,0" HorizontalAlignment="Left" Width="120" Background="#FF46FD00"
-                BorderBrush="#FF46FD00" Foreground="White"/>
-            <Button x:Name="GoToUsers" Click="GoToUsers" Height="25" Content="Пользователи" VerticalAlignment="Center" Margin="140,0,0,0" HorizontalAlignment="Left" Width="120" Background="#FF46FD00"
-                BorderBrush="#FF46FD00" Foreground="White"/>
             <Grid Grid.Row="1" Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="120"/>
