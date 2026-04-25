@@ -23,11 +23,11 @@
             Height="25"
             Content="Пользователи"
             VerticalAlignment="Top"
-            Margin="129,7,571,0"
+            Margin="129,7,0,0"
             Width="100"
             Background="#FF46FD00"
             BorderBrush="#FF46FD00"
-            Foreground="White"/>
+            Foreground="White" HorizontalAlignment="Left"/>
         <Frame x:Name="frame" NavigationUIVisibility="Hidden" Margin="0,40,0,0"/>
     </Grid>
 </Window>
